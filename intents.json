@@ -1,0 +1,699 @@
+{
+    "intent": [
+      {
+        "tag": "greeting",{
+            "intent": [
+              {
+                "tag": "greeting",
+                "patterns": [
+                  "Hi",
+                  "How are you?",
+                  "Hey there, how have you been?",
+                  "Is anyone there?",
+                  "Hello",
+                  "Good day",
+                  "Hiii",
+                  "Hii",
+                  "LawBot"
+                ],
+                "responses": [
+                  "Hi there, what can I do for you?",
+                  "Hey there, how can I help?"
+                ]
+              },
+              {
+                "tag": "legal_advice",
+                "patterns": [
+                  "I need legal advice",
+                  "Can you help with legal issues?",
+                  "I have a legal question",
+                  "Can you provide legal guidance?"
+                ],
+                "responses": [
+                  "Sure, what legal issue do you need advice on?",
+                  "I'm here to help with your legal questions. What do you need assistance with?"
+                ]
+              },
+              {
+                "tag": "goodbye",
+                "patterns": ["Bye", "See you later", "Goodbye"],
+                "responses": [
+                  "See you later, thanks for visiting",
+                  "Have a nice day",
+                  "Bye! Come back again soon."
+                ]
+              },
+              {
+                "tag": "thanks",
+                "patterns": [
+                  "Thanks",
+                  "Thank you",
+                  "That's helpful",
+                  "Nice",
+                  "Good",
+                  "Thank you Bot",
+                  "Thank you so much",
+                  "You are helpful",
+                  "You are great",
+                  "Welcome"
+                ],
+                "responses": ["Happy to help!", "Anytime!", "My pleasure"]
+              },
+              {
+                "tag": "about",
+                "patterns": [
+                  "about you",
+                  "Who are you?",
+                  "What are you?",
+                  "Who you are?",
+                  "what you can do",
+                  "What is the purpose of this bot?",
+                  "tell me about you",
+                  "What can you do?"
+                ],
+                "responses": [
+                  "I am LawBot. I can provide you with general legal information and guide you on various legal matters. However, I am not a substitute for professional legal advice."
+                ]
+              },
+              {
+                "tag": "name",
+                "patterns": [
+                  "what is your name",
+                  "what should I call you",
+                  "what's your name?"
+                ],
+                "responses": [
+                  "You can call me LawBot.",
+                  "I'm LawBot!",
+                  "Just call me LawBot"
+                ]
+              },
+              {
+                "tag": "help",
+                "patterns": [
+                  "Could you help me?",
+                  "give me a hand please",
+                  "Can you help?",
+                  "What can you do for me?",
+                  "I need support",
+                  "I need help",
+                  "support me please"
+                ],
+                "responses": [
+                  "Tell me how can I assist you",
+                  "Tell me your legal issue to assist you",
+                  "Yes sure, how can I help you?"
+                ]
+              },
+              {
+                "tag": "irrelevant",
+                "patterns": [
+                  "Complete the work",
+                  "My name",
+                  "user name",
+                  "you are not good",
+                  "Nothing",
+                  "You are bad",
+                  "Nothing to worry",
+                  "ChatGPT is the best",
+                  "Irrelevant",
+                  "Profanity",
+                  "Shut up",
+                  "Suggest me a lawyer",
+                  "Lawyer suggestion",
+                  "Legal information",
+                  "When to file a case",
+                  "Case filing tips",
+                  "Provide me with legal tips",
+                  "Give me legal advice",
+                  "Are you dumb"
+                ],
+                "responses": [
+                  "My main focus is on providing general legal information. For any specific legal advice, please consult a licensed attorney."
+                ]
+              },
+              {
+                "tag": "legal_documentation",
+                "patterns": [
+                  "How to draft a contract",
+                  "Can you help with legal documentation?",
+                  "I need help with drafting a legal document",
+                  "Document drafting"
+                ],
+                "responses": [
+                  "I can provide guidance on drafting legal documents. What type of document do you need help with?",
+                  "Sure, I can give you tips on legal documentation. What do you need to draft?"
+                ]
+              },
+              {
+                "tag": "creators",
+                "patterns": [
+                  "Who are the creators?",
+                  "Who made this project?",
+                  "Project creators",
+                  "Project is made by",
+                  "Project",
+                  "Who created you?"
+                ],
+                "responses": [
+                  "This project is created by a talented team of developers and legal experts.",
+                  "Meet the team behind this project: skilled developers and legal professionals."
+                ]
+              },
+              {
+                "tag": "acknowledge",
+                "patterns": [
+                  "ok",
+                  "yeah",
+                  "This is great",
+                  "Now I understand",
+                  "yes",
+                  "K"
+                ],
+                "responses": ["Great!", "Got it!", "Perfect!", "Awesome!"]
+              },
+              {
+                "tag": "age_inquiry",
+                "patterns": ["How old are you?", "What's your age?"],
+                "responses": ["I'm a chatbot, so I don't have an age!"]
+              },
+              {
+                "tag": "positive_feedback",
+                "patterns": [
+                  "I love this chatbot",
+                  "This is great!",
+                  "You're doing a good job",
+                  "I'm impressed!",
+                  "You are great",
+                  "Superb bot"
+                ],
+                "responses": [
+                  "Thank you! I'm glad you're enjoying it.",
+                  "Appreciate the positive feedback!"
+                ]
+              },
+              {
+                "tag": "negative_feedback",
+                "patterns": [
+                  "I'm not satisfied",
+                  "This isn't helpful",
+                  "I'm disappointed",
+                  "Very bad bot.",
+                  "I will not believe you"
+                ],
+                "responses": [
+                  "I'm sorry to hear that. How can I improve?",
+                  "Apologies if I fell short. Let me know how I can assist you better."
+                ]
+              },
+              {
+                "tag": "information_request",
+                "patterns": [
+                  "Can you provide more information?",
+                  "Tell me more",
+                  "I need more details",
+                  "Give me more information",
+                  "Guide me"
+                ],
+                "responses": [
+                  "Sure, what specific information are you looking for?",
+                  "Of course, what do you want to know more about?"
+                ]
+              },
+              {
+                "tag": "contact_support",
+                "patterns": [
+                  "I need to contact support",
+                  "How can I reach customer service?",
+                  "Help me get in touch with support",
+                  "Who to contact?"
+                ],
+                "responses": [
+                  "You can reach our support team at [support@example.com]."
+                ]
+              },
+              {
+                "tag": "legal_rights",
+                "patterns": [
+                  "What are my legal rights?",
+                  "Explain my rights",
+                  "Legal rights information",
+                  "Rights"
+                ],
+                "responses": [
+                  "Legal rights can vary depending on your location and situation. It's best to consult a legal expert for specific information regarding your rights."
+                ]
+              },
+              {
+                "tag": "exit",
+                "patterns": ["exit", "quit", "over"],
+                "responses": [
+                  "Thank you for using LawBot. Come back later.",
+                  "Hope you found the bot helpful."
+                ]
+              },
+              {
+                "tag": "info_law",
+                "patterns": [
+                  "What is law?",
+                  "Explain law",
+                  "Purpose of law",
+                  "What do you mean by law?"
+                ],
+                "responses": [
+                  "Law is a system of rules created and enforced through social or governmental institutions to regulate behavior. It ensures that individuals and entities adhere to the will of the state and provides a framework for resolving disputes."
+                ]
+              },
+              {
+                "tag": "info_legal_system",
+                "patterns": [
+                  "What is the legal system?",
+                  "Explain the legal system",
+                  "Legal system information",
+                  "Guide about the legal system"
+                ],
+                "responses": [
+                  "The legal system is a set of laws and regulations, along with the institutions that create, interpret, and enforce them. It includes courts, law enforcement agencies, and legislative bodies."
+                ]
+              },
+              {
+                "tag": "info_lawyer",
+                "patterns": [
+                  "What is a lawyer?",
+                  "Explain about lawyers",
+                  "Lawyer information",
+                  "Who is a lawyer?"
+                ],
+                "responses": [
+                  "A lawyer is a professional who practices law, representing and advising clients on legal matters. Lawyers can specialize in various areas such as criminal law, civil law, corporate law, and more."
+                ]
+              },
+              {
+                "tag": "info_court",
+                "patterns": [
+                  "What is a court?",
+                  "Explain about courts",
+                  "Court information",
+                  "What do you mean by court?"
+                ],
+                "responses": [
+                  "A court is a government institution that resolves legal disputes between parties and administers justice. Courts interpret and apply the law, and their decisions can have a significant impact on individuals and society."
+                ]
+              },
+              {
+                "tag": "legal_procedure",
+                "patterns": [
+                  "What is a legal procedure?",
+                  "Explain the legal procedure",
+                  "Guide about the legal procedure",
+                  "Legal process information"
+                ],
+                "responses": [
+                  "Legal procedure refers to the rules and processes that govern how legal cases are handled. It includes steps like filing a lawsuit, presenting evidence, and making legal arguments in court."
+                ]
+              },
+              {
+                "tag": "criminal_law",
+                "patterns": [
+                  "What is criminal law?",
+                  "Explain criminal law",
+                  "Criminal law information",
+                  "What do you mean by criminal law?"
+                ],
+                "responses": [
+                  "Criminal law involves laws related to crimes and their punishments. It defines criminal offenses, regulates the apprehension, charging, and trial of suspected persons, and sets penalties and modes of treatment for convicted offenders."
+                ]
+              },
+              {
+                "tag": "civil_law",
+                "patterns": [
+                  "What is civil law?",
+                  "Explain civil law",
+                  "Civil law information",
+                  "What do you mean by civil law?"
+                ],
+                "responses": [
+                  "Civil law deals with disputes between individuals and organizations. It covers areas like contracts, property, family law, and torts. Civil cases typically seek compensation or other remedies for the harm done."
+                ]
+              },
+              {
+                "tag": "family_law",
+                "patterns": [
+                  "What is family law?",
+                  "Explain family law",
+                  "Family law information",
+                  "What do you mean by family law?"
+                ],
+                "responses": [
+                  "Family law governs legal issues related to family relationships, including marriage, divorce, child custody, adoption, and domestic violence. It aims to resolve disputes and ensure the welfare of children and families."
+                ]
+              },
+              {
+                "tag": "contract_law",
+                "patterns": [
+                  "What is contract law?",
+                  "Explain contract law",
+                  "Contract law information",
+                  "What do you mean by contract law?"
+                ],
+                "responses": [
+                  "Contract law regulates agreements between parties. It outlines the creation, execution, and enforcement of contracts, ensuring that parties fulfill their obligations or face legal consequences for breach of contract."
+                ]
+              },
+              {
+                "tag": "property_law",
+                "patterns": [
+                  "What is property law?",
+                  "Explain property law",
+                  "Property law information",
+                  "What do you mean by property law?"
+                ],
+                "responses": [
+                  "Property law governs the ownership and use of land and personal property. It covers issues like property rights, transfers, leases, and disputes over property ownership."
+                ]
+              },
+              {
+                "tag": "tort_law",
+                "patterns": [
+                  "What is tort law?",
+                  "Explain tort law",
+                  "Tort law information",
+                  "What do you mean by tort law?"
+                ],
+                "responses": [
+                  "Tort law deals with civil wrongs that cause harm or loss to individuals. It allows victims to seek compensation from those responsible for their injuries, covering areas like negligence, intentional harm, and strict liability."
+                ]
+              }
+            ]
+          }
+          
+        "patterns": [
+          "Hi",
+          "How are you?",
+          "Hey there, how have you been?",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hiii",
+          "Hii",
+          "LawBot"
+        ],
+        "responses": [
+          "Hi there, what can I do for you?",
+          "Hey there, how can I help?"
+        ]
+      },
+      {
+        "tag": "legal_advice",
+        "patterns": [
+          "I need legal advice",
+          "Can you help with legal issues?",
+          "I have a legal question",
+          "Can you provide legal guidance?"
+        ],
+        "responses": [
+          "Sure, what legal issue do you need advice on?",
+          "I'm here to help with your legal questions. What do you need assistance with?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Nice",
+          "Good",
+          "Thank you Bot",
+          "Thank you so much",
+          "You are helpful",
+          "You are great",
+          "Welcome"
+        ],
+        "responses": ["Happy to help!", "Anytime!", "My pleasure"]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "about you",
+          "Who are you?",
+          "What are you?",
+          "Who you are?",
+          "what you can do",
+          "What is the purpose of this bot?",
+          "tell me about you",
+          "What can you do?"
+        ],
+        "responses": [
+          "I am LawBot. I can provide you with general legal information and guide you on various legal matters. However, I am not a substitute for professional legal advice."
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "what is your name",
+          "what should I call you",
+          "what's your name?"
+        ],
+        "responses": [
+          "You can call me LawBot.",
+          "I'm LawBot!",
+          "Just call me LawBot"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Could you help me?",
+          "give me a hand please",
+          "Can you help?",
+          "What can you do for me?",
+          "I need support",
+          "I need help",
+          "support me please"
+        ],
+        "responses": [
+          "Tell me how can I assist you",
+          "Tell me your legal issue to assist you",
+          "Yes sure, how can I help you?"
+        ]
+      },
+      {
+        "tag": "irrelevant",
+        "patterns": [
+          "Complete the work",
+          "My name",
+          "user name",
+          "you are not good",
+          "Nothing",
+          "You are bad",
+          "Nothing to worry",
+          "ChatGPT is the best",
+          "Irrelevant",
+          "Profanity",
+          "Shut up",
+          "Suggest me a lawyer",
+          "Lawyer suggestion",
+          "Legal information",
+          "When to file a case",
+          "Case filing tips",
+          "Provide me with legal tips",
+          "Give me legal advice",
+          "Are you dumb"
+        ],
+        "responses": [
+          "My main focus is on providing general legal information. For any specific legal advice, please consult a licensed attorney."
+        ]
+      },
+      {
+        "tag": "legal_documentation",
+        "patterns": [
+          "How to draft a contract",
+          "Can you help with legal documentation?",
+          "I need help with drafting a legal document",
+          "Document drafting"
+        ],
+        "responses": [
+          "I can provide guidance on drafting legal documents. What type of document do you need help with?",
+          "Sure, I can give you tips on legal documentation. What do you need to draft?"
+        ]
+      },
+      {
+        "tag": "creators",
+        "patterns": [
+          "Who are the creators?",
+          "Who made this project?",
+          "Project creators",
+          "Project is made by",
+          "Project",
+          "Who created you?"
+        ],
+        "responses": [
+          "This project is created by a talented team of developers and legal experts.",
+          "Meet the team behind this project: skilled developers and legal professionals."
+        ]
+      },
+      {
+        "tag": "acknowledge",
+        "patterns": [
+          "ok",
+          "yeah",
+          "This is great",
+          "Now I understand",
+          "yes",
+          "K"
+        ],
+        "responses": ["Great!", "Got it!", "Perfect!", "Awesome!"]
+      },
+      {
+        "tag": "age_inquiry",
+        "patterns": ["How old are you?", "What's your age?"],
+        "responses": ["I'm a chatbot, so I don't have an age!"]
+      },
+      {
+        "tag": "positive_feedback",
+        "patterns": [
+          "I love this chatbot",
+          "This is great!",
+          "You're doing a good job",
+          "I'm impressed!",
+          "You are great",
+          "Superb bot"
+        ],
+        "responses": [
+          "Thank you! I'm glad you're enjoying it.",
+          "Appreciate the positive feedback!"
+        ]
+      },
+      {
+        "tag": "negative_feedback",
+        "patterns": [
+          "I'm not satisfied",
+          "This isn't helpful",
+          "I'm disappointed",
+          "Very bad bot.",
+          "I will not believe you"
+        ],
+        "responses": [
+          "I'm sorry to hear that. How can I improve?",
+          "Apologies if I fell short. Let me know how I can assist you better."
+        ]
+      },
+      {
+        "tag": "information_request",
+        "patterns": [
+          "Can you provide more information?",
+          "Tell me more",
+          "I need more details",
+          "Give me more information",
+          "Guide me"
+        ],
+        "responses": [
+          "Sure, what specific information are you looking for?",
+          "Of course, what do you want to know more about?"
+        ]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": [
+          "I need to contact support",
+          "How can I reach customer service?",
+          "Help me get in touch with support",
+          "Who to contact?"
+        ],
+        "responses": [
+          "You can reach our support team at [support@example.com]."
+        ]
+      },
+      {
+        "tag": "legal_rights",
+        "patterns": [
+          "What are my legal rights?",
+          "Explain my rights",
+          "Legal rights information",
+          "Rights"
+        ],
+        "responses": [
+          "Legal rights can vary depending on your location and situation. It's best to consult a legal expert for specific information regarding your rights."
+        ]
+      },
+      {
+        "tag": "exit",
+        "patterns": ["exit", "quit", "over"],
+        "responses": [
+          "Thank you for using LawBot. Come back later.",
+          "Hope you found the bot helpful."
+        ]
+      },
+      {
+        "tag": "info_law",
+        "patterns": [
+          "What is law?",
+          "Explain law",
+          "Purpose of law",
+          "What do you mean by law?"
+        ],
+        "responses": [
+          "Law is a system of rules created and enforced through social or governmental institutions to regulate behavior. It ensures that individuals and entities adhere to the will of the state and provides a framework for resolving disputes."
+        ]
+      },
+      {
+        "tag": "info_legal_system",
+        "patterns": [
+          "What is the legal system?",
+          "Explain the legal system",
+          "Legal system information",
+          "Guide about the legal system"
+        ],
+        "responses": [
+          "The legal system is a set of laws and regulations, along with the institutions that create, interpret, and enforce them. It includes courts, law enforcement agencies, and legislative bodies."
+        ]
+      },
+      {
+        "tag": "info_lawyer",
+        "patterns": [
+          "What is a lawyer?",
+          "Explain about lawyers",
+          "Lawyer information",
+          "Who is a lawyer?"
+        ],
+        "responses": [
+          "A lawyer is a professional who practices law, representing and advising clients on legal matters. Lawyers can specialize in various areas such as criminal law, civil law, corporate law, and more."
+        ]
+      },
+      {
+        "tag": "info_court",
+        "patterns": [
+          "What is a court?",
+          "Explain about courts",
+          "Court information",
+          "What do you mean by court?"
+        ],
+        "responses": [
+          "A court is a government institution that resolves legal disputes between parties and administers justice. Courts interpret and apply the law, and their decisions can have a significant impact on individuals and society."
+        ]
+      },
+      {
+        "tag": "legal_procedure",
+        "patterns": [
+          "What is a legal procedure?",
+          "Explain the legal procedure",
+          "Guide about the legal procedure",
+          "Legal process information"
+        ],
+        "responses": [
+          "Legal procedure refers to the rules and processes that govern how legal cases are handled. It includes steps like filing a lawsuit, presenting evidence, and making legal arguments in court."
+        ]
+      }
+    ]
+  }
+  
